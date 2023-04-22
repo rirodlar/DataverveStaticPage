@@ -1,0 +1,41 @@
+<style>
+  /* NOTE: You can use the custom CSS configuration to move this CSS your own stylesheet... */
+
+  /* Overwrite default navbar styles to make room at the top of the browser page for our custom header... */
+  .navbar-fixed-top {
+    top: 50px !important;
+  }
+  #dataverse-header-block {
+    padding-top: 100px;
+  }
+
+  /* Place narrow custom header at the top of the page... */
+  #custom-header {
+    background: #F28E1E;
+    min-height: 44px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 930;
+    padding-top: 8px;
+  }
+  #custom-header a.cst-hdr-link {
+    line-height: 32px;
+    color: #fff;
+    font-weight: bold;
+  }
+</style>
+<div id="custom-header">
+  <div class="container">
+    <p class="text-right" style="color:#fff">
+     ir a     
+       <a
+        class="cst-hdr-link"
+        href="https://www.usach.cl/"
+        title="https://www.usach.cl/"
+        target="_blank"
+        >Portal USACH</a
+      >
+    </p>
+  </div>
+</div>

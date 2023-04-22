@@ -1,0 +1,80 @@
+/*
+.navbar-default {
+	background-color: gold;
+	background-image: none;
+}
+*/
+#navbarFixed .navbar-brand.custom-logo {
+  height: 50px;
+}
+
+.color-primary {
+  color: #f28e1e;
+}
+
+.dataverseHeaderName {
+  display: none !important;
+}
+
+#dataverseHeader {
+  margin: 20px auto;
+  padding: 10px;
+}
+h1#title {
+  color: #f28e1e;
+}
+
+#btnDataverseSearch {
+  display: none !important;
+}
+
+.blue {
+  color: #0c8ce9 !important;
+}
+
+.btn-default {
+  background-color: #0c8ce9 !important;
+  color: white !important;
+  background-image: none !important;
+}
+.card-title-icon-block a span {
+  color: #f28e1e;
+  font-weight: bolder;
+}
+
+/*Carrousel */
+.item {
+  background-color: #f28e1e;
+  vertical-align: middle;
+  position: relative;
+  height: 122px;
+}
+.item .show {
+  color: white;
+}
+.owl-item {
+  width: 275;
+}
+
+.item a {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*logo principal */
+#navbarFixed .navbar-brand.custom-logo {
+  height: 80px;
+}
+
+#dataverseHeader {
+  margin-top: 45px;
+}
+
+.bg-muted {
+  background-color: #f28e1e !important;
+}
+.dataverseHeaderCell span {
+  color: white !important;
+}

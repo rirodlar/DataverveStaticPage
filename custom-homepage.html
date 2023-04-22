@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <style>
+        /* NOTE: You can use the custom CSS configuration to move this CSS your own stylesheet... */
+
+        /* Custom CSS for the custom homepage... */
+
+        .container_img {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin: 10px auto;
+            border-radius: 5px;
+       	}
+
+	#dataverseHeader{
+            display: none !important;
+	}
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            font-size: xx-large;
+            text-align: left;
+            width: 800px;
+        }
+
+        .content {
+            width: 80%;
+            /* text-align: center; */
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: large;
+
+        }
+
+        .logos-portada {
+            width: 2.5em;
+        }
+
+
+
+        input[type=text] {
+            width: 80%;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box div {
+            width: 200px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container_img">
+        <img src="https://usach.cl/sites/default/files/styles/slideshow100_/public/Sub---Facultades3.jpg?itok=9QZkZGF_"
+             style="width:100%;border-radius: 5px"></img>
+        <div class="centered">
+            Comparte, encuentra y cita datos de investigación producidos en la Universidad Santiago de Chile.
+        </div>
+    </div>
+
+
+    <div style="padding-right: 100px;padding-left:100px;border-radius: 5px;">
+        <div class="row" style="text-align: center; margin-top: 1.5em;">
+            <div>
+                <a class="btn btn-primary btn-lg" href="/dataverse/root" role="button">Buscar Datos</a>
+                <script
+                    src="http://datos.usach.cl:8080/resources/js/widgets.js?alias=root&amp;dvUrl=http://datos.usach.cl:8080&amp;widget=search&amp;text="></script>
+            </div>
+<!--            <div class="box">-->
+<!--                <div>-->
+<!--                    <img src="https://dataverse.csuc.cat/resources/images/icons-cora/icon-universities-white.png;" alt="Metrics" class="logos-portada">-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; font-size: 1.3em; color:#FFFFFF;">-->
+<!--                        <span class="metrics-downloads">11</span>-->
+<!--                    </div>-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; color:#FFFFFF;">Dataverse</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <img src="https://dataverse.csuc.cat/resources/images/icons-cora/icon-datasets-white.png;" alt="Metrics" class="logos-portada">-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; font-size: 1.3em; color:#FFFFFF;">-->
+<!--                        <span class="metrics-downloads">17</span>-->
+<!--                    </div>-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; color:#FFFFFF;">Dataset</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <img src="https://dataverse.csuc.cat/resources/images/icons-cora/icon-files-white.png;" alt="Metrics" class="logos-portada">-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; font-size: 1.3em; color:#FFFFFF;">-->
+<!--                        <span class="metrics-downloads">17</span>-->
+<!--                    </div>-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; color:#FFFFFF;">Files</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <img src="https://dataverse.csuc.cat/resources/images/icons-cora/icon-metrics-white.png;"-->
+<!--                         alt="Metrics" class="logos-portada">-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; font-size: 1.3em; color:#FFFFFF;"><span-->
+<!--                        class="metrics-downloads">7</span>-->
+<!--                    </div>-->
+<!--                    <div style="text-align: center; margin-top: 0.5em; color:#FFFFFF;">Download</div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+        </div>
+    </div>
+
+    <div style="padding-left: 100px; padding-right: 100px;">
+        <p style="color: #F28E1E;font-size:x-large;margin-top: 30px;font-weight: 500">Datos Accesibles</p>
+        <div style="text-align:justify">
+            El repositorio de datos de investigación proporciona una plataforma para que los investigadores
+            afiliados a USACH
+            compartan, conserven, citen y hagan que los datos de investigación sean accesibles y detectables.
+            El repositorio de datos de investigación de USACH proporciona un identificador digital permanente para
+            los datos de
+            investigación, que cumple con las políticas de intercambio de datos.
+            El repositorio funciona con la aplicación de código abierto Dataverse, desarrollada y
+            utilizada por la Universidad de Harvard. Tanto el Repositorio de datos de investigación de USACH como el
+            Repositorio
+            institucional KEEP son administrados por la Biblioteca de USACH para garantizar que la investigación
+            producida
+            en la Universidad Santiago de Chile sea reconocible y accesible para la comunidad global.
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
