@@ -229,7 +229,7 @@
                     <div class="col-sm-9 col-md-offset-1">
 <!--                        <input type="text" class="form-control" id="example" />-->
 
-                        <input type="text" class="form-control"  placeholder="Buscar dataverse..."
+                        <input id="search" type="text" class="form-control"  placeholder="Buscar dataverse..."
                                onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click()"
                              >
 
@@ -237,7 +237,7 @@
                     <div class="col-sm-2">
 
                         <input id="btnDataverseSearch" class="btn search-btn" value="Buscar" type="button"
-                               onclick="window.open('http://datos.usach.cl:8080/dataverse.xhtml?alias=usach&amp;q=' + this.previousSibling.previousSibling.value + '', '_blank');"
+                               onclick="window.open('http://datos.usach.cl:8080/dataverse.xhtml?alias=usach&amp;q=' +document.getElementById('search').value + '', '_blank');"
                                >
 <!--                        <button type="button" class="btn search-btn">-->
 <!--                            Buscar Datos-->
