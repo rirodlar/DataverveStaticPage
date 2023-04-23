@@ -28,7 +28,7 @@
     height: 142px;
   }
   #custom-footer {
-    background: #999999;
+    background: #394049;
     color: #fff;
     min-height: 100px;
     padding: 1.25em 0 100px 0;
@@ -41,6 +41,36 @@
     text-align: left;
     margin-top: 30px;
     font-size: small;
+  }
+/** NUEVO */
+  .style-footer {
+    background-color: #394049;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+  }
+
+  .footer-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+      margin-top: 30px;
+  }
+  .h-120 {
+    height: 120px;
+  }
+  .w-100 {
+    width: 100%;
   }
 </style>
 
@@ -55,26 +85,39 @@
     	</div>
     </div>
 -->
-<div id="custom-footer">
+<div id="custom-footer"  class="navbar style-footer">
+
+
   <div class="container" style="text-align: center">
     <div class="row">
-      <div class="col-md-4">
-        <img
-          class="col-sm-offset-6"
-          src="http://158.170.66.118/logos/imgFooter2.png"
-          width="230"
-          height="115"
-        />
+<!--      <div class="col-md-6">-->
+<!--        <img-->
+<!--          class=""-->
+<!--          src="http://localhost/img/usach.png"-->
+<!--          width="230"-->
+<!--          height="115"-->
+<!--        />-->
+<!--      </div>-->
+<!--      <div class="col-md-6">-->
+<!--        <div class="text_footer">-->
+<!--          <span class="w-100">Universidad de Santiago de Chile </span>-->
+<!--          <span class="w-100">Avenida Libertador Bernardo O'Higgins nº 3363. Estación Central.Santiago. Chile.</span>-->
+<!--          <span class="w-100">© 2023 The Dataverse Project - Modificado por VRIDEI USACH</span>-->
+<!--          <p>© 2023 The Dataverse Project - Modificado por VRIDEI USACH</p>-->
+<!--        </div>-->
+
+      <div class="col-md-6 footer-left">
+        <img src="http://localhost/img/usach.png" alt="..." class="h-120" />
       </div>
-      <div class="col-md-8">
-        <div class="text_footer col-sm-offset-1">
-          <p>Universidad de Santiago de Chile.</p>
-          <p>
-            Avenida Libertador Bernardo O'Higgins nº 3363. Estación Central.
-            Santiago. Chile.
-          </p>
-          <p>© 2023 The Dataverse Project - Modificado por VRIDEI USACH</p>
-        </div>
+      <div class="col-md-6 footer-right">
+        <span class="w-100">Universidad de Santiago de Chile </span>
+        <span class="w-100">
+              Avenida Libertador Bernardo O'Higgins nº 3363. Estación
+              Central.Santiago. Chile.
+            </span>
+        <span class="w-100">
+              © 2023 The Dataverse Project - Modificado por VRIDEI USACH
+            </span>
       </div>
     </div>
   </div>
