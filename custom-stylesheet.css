@@ -24,9 +24,9 @@ h1#title {
   color: #f28e1e;
 }
 
-#btnDataverseSearch {
-  display: none !important;
-}
+/*#btnDataverseSearch {*/
+/*  display: none !important;*/
+/*}*/
 
 .blue {
   color: #0c8ce9 !important;
