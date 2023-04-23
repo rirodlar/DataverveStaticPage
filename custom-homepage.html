@@ -142,6 +142,10 @@
             text-align: center;
         }
 
+        .mini-card > a{
+            color: white;
+        }
+
         .brown-color {
             background-color: #ead1b5;
         }
@@ -222,27 +226,20 @@
             </div>
         </div>
         <div class="col-md-12 my-10 px-150">
-
 <!--            <script src="http://datos.usach.cl:8080/resources/js/widgets.js?alias=usach&amp;dvUrl=http://datos.usach.cl:8080&amp;widget=search&amp;text=Search+my+dataverse"></script>-->
             <form>
                 <div class="form-group">
                     <div class="col-sm-9 col-md-offset-1">
-<!--                        <input type="text" class="form-control" id="example" />-->
 
                         <input id="search" type="text" class="form-control"  placeholder="Buscar dataverse..."
                                onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click()"
                              >
-
                     </div>
                     <div class="col-sm-2">
-
-                        <input id="btnDataverseSearch" class="btn search-btn" value="Buscar" type="button"
-                               onclick="window.open('http://datos.usach.cl:8080/dataverse.xhtml?alias=usach&amp;q=' +document.getElementById('search').value + '', '_blank');"
+                        <button id="btnDataverseSearch" class="btn search-btn"  type="button"
+                               onclick="window.open('http://datos.usach.cl:8080/dataverse.xhtml?alias=usach&amp;q=' + document.getElementById('search').value + '', '_blank');"
                                >
-<!--                        <button type="button" class="btn search-btn">-->
-<!--                            Buscar Datos-->
-                        </input>
-
+                            Buscar Datos </button>
                     </div>
                 </div>
             </form>
@@ -257,7 +254,9 @@
             </div>
             <div class="row padding-40 faculty-card">
                 <div class="col-md-4 p-10">
-                    <div class="mini-card">FACULTAD DE ADMS Y ECONOMÍA</div>
+                    <div class="mini-card">
+                       <a href="/dataverse/FAE">FACULTAD DE ADMS Y ECONOMÍA</a>
+                    </div>
                 </div>
                 <div class="col-md-4 p-10">
                     <div class="mini-card">FACULTAD DE CIENCIA</div>
